@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title} — Incentive Design Tear Sheet</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&family=Libre+Baskerville:ital@0;1&display=swap');
+*{{margin:0;padding:0;box-sizing:border-box}}
+body{{font-family:'Inter',-apple-system,sans-serif;background:#f8f7f4;color:#2c2c2c;font-size:12px;line-height:1.5;-webkit-font-smoothing:antialiased}}
+.sheet{{max-width:1180px;margin:0 auto;padding:0 20px 28px}}
+.mono{{font-family:'JetBrains Mono',monospace}}
+.hdr{{background:#1a1a2e;color:#e0ddd5;padding:14px 20px 12px;margin:0 -20px 18px;border-bottom:1px solid #c9a84c}}
+.hdr-top{{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}}
+.tk-big{{font-family:'JetBrains Mono',monospace;font-weight:600;font-size:22px;letter-spacing:0.5px;color:#e8e4db}}
+.co-name{{font-family:'Libre Baskerville',Georgia,serif;font-size:16px;color:#c9a84c}}
+.hdr-meta{{color:#8a8578;font-size:11px;margin-left:auto;text-align:right;line-height:1.6}}
+.sec-title{{font-family:'Libre Baskerville',Georgia,serif;font-size:13px;color:#1a1a2e;text-transform:uppercase;letter-spacing:1px;margin:0 0 4px;padding-bottom:5px;border-bottom:2px solid #1a1a2e;display:flex;align-items:baseline;justify-content:space-between}}
+.sec-title .note{{font-family:'Inter',sans-serif;font-size:10.5px;text-transform:none;letter-spacing:0;color:#9a958c;font-weight:400}}
+.notice{{background:#fff;border:1px solid #e5e2db;border-left:3px solid #c9a84c;border-radius:3px;padding:18px 20px;margin-top:6px}}
+.notice h2{{font-family:'Libre Baskerville',Georgia,serif;font-size:16px;font-weight:400;color:#1a1a2e;margin-bottom:8px}}
+.notice p{{font-size:12.5px;color:#5a5750;line-height:1.6;max-width:760px}}
+table.real{{width:100%;border-collapse:collapse;margin-top:4px}}
+.real td{{padding:7px 8px;border-bottom:1px solid #e9e6df;font-size:12px}}
+.real td.l{{text-align:left;color:#6b6860}}
+.dollar{{font-family:'JetBrains Mono',monospace;font-size:11.5px}}
+.foot{{margin-top:18px;padding-top:9px;border-top:1px solid #ddd9d0;font-size:10px;color:#b5b0a5;line-height:1.6}}
+.foot b{{color:#8a8578;font-weight:500}}
+</style></head>
+<body><div class="sheet">
+  <div class="hdr">
+    <div class="hdr-top">
+      <span class="tk-big">{ticker}</span>
+      <span class="co-name">{company}</span>
+      <img src="data:image/png;base64,{logo_b64}" alt="Verity" style="margin-left:auto;height:24px;width:auto"/>
+    </div>
+    <div class="hdr-meta" style="margin-left:0;text-align:left;margin-top:6px">{meta}</div>
+  </div>
+  <div class="notice">
+    <h2>{headline}</h2>
+    <p>{body}</p>
+  </div>
+  {disclosed}
+  <div class="foot">{footer}</div>
+</div></body></html>

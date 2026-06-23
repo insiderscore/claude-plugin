@@ -1,0 +1,512 @@
+{
+  "ticker": "DIS",
+  "company": "The Walt Disney Company",
+  "meta": "Consumer Discretionary · Movies &amp; Entertainment · ~$173B mkt cap<br>Fiscal years 2021–2025 · annual &amp; long-term incentive plans",
+  "thesis": "A profitability-disciplined plan whose stock-based half kept paying zero. The annual bonus is stable every year — 35% <b>segment operating income</b>, 17.5% <b>revenue</b>, 17.5% <b>after-tax free cash flow</b>, 30% <b>other factors</b> — and has paid 97–191% as parks and the streaming pivot recovered. The long-term plan is 50% <b>relative TSR</b> (vs. the S&amp;P 500) + 50% <b>return on invested capital</b>, but relative TSR paid <b>0% in all three completed cycles</b>, so the equity earned out only on ROIC (49–73%).",
+  "years": [
+    "FY21",
+    "FY22",
+    "FY23",
+    "FY24",
+    "FY25"
+  ],
+  "ceo": [
+    {
+      "who": "Robert A. Chapek",
+      "when": "FY21–FY22"
+    },
+    {
+      "who": "Robert A. Iger",
+      "when": "FY23–FY25 · returned Nov 2022"
+    }
+  ],
+  "orientation_caption": "Horizontal: profitability (left) to growth (right). Vertical: shareholder return (top) to other (bottom). Net weight tilt on each axis, AIP and LTIP blended equally. Relative TSR is a weighted LTIP metric here (not a modifier), so it places the dot rather than appearing as an arrow.",
+  "orientation_points": [
+    {
+      "label": "FY21",
+      "growth": 0.088,
+      "profitability": 0.512,
+      "sr": 0.25,
+      "other": 0.15
+    },
+    {
+      "label": "FY22",
+      "growth": 0.088,
+      "profitability": 0.512,
+      "sr": 0.25,
+      "other": 0.15
+    },
+    {
+      "label": "FY23",
+      "growth": 0.088,
+      "profitability": 0.512,
+      "sr": 0.25,
+      "other": 0.15
+    },
+    {
+      "label": "FY24",
+      "growth": 0.088,
+      "profitability": 0.512,
+      "sr": 0.25,
+      "other": 0.15
+    },
+    {
+      "label": "FY25",
+      "growth": 0.088,
+      "profitability": 0.637,
+      "sr": 0.125,
+      "other": 0.15
+    }
+  ],
+  "orientation_note": "DIS sits firmly in Capital Discipline (profitability + shareholder return), heavily profitability-led: segment operating income and free cash flow dominate the AIP, and ROIC is half the LTIP. FY21–24 cluster at one point; FY25 shifts further left as the new LTIP grant added Adjusted EPS Growth (50%) and cut the relative-TSR weight from 50% to 25% — more profitability emphasis, less market-relative. Growth weight is low because revenue is only 17.5% of the AIP and absent from the LTIP.",
+  "goalpost_caption": "Bar spans threshold → maximum in reported dollars; notch is target; dot is actual. The three AIP financial metrics carry clean disclosed bands; segment operating income and free cash flow crossed from negative to positive over the period (the FY21 COVID trough), so the zero line is shown. Green ≥ max, gold in-band, red below threshold.",
+  "goalposts": [
+    {
+      "name": "Adjusted segment operating income",
+      "weight_label": "35% AIP · profitability",
+      "axis_min": -5000,
+      "axis_max": 20000,
+      "axis_min_label": "-$5B",
+      "axis_max_label": "$20B",
+      "show_zero": true,
+      "years": [
+        {
+          "label": "FY21",
+          "thr": -3906,
+          "tgt": -856,
+          "max": 2194,
+          "actual": 4055
+        },
+        {
+          "label": "FY22",
+          "thr": 6556,
+          "tgt": 9856,
+          "max": 12656,
+          "actual": 12121
+        },
+        {
+          "label": "FY23",
+          "thr": 9957,
+          "tgt": 13257,
+          "max": 16300,
+          "actual": 12863
+        },
+        {
+          "label": "FY24",
+          "thr": 11937,
+          "tgt": 14469,
+          "max": 16494,
+          "actual": 15601
+        },
+        {
+          "label": "FY25",
+          "thr": 14043,
+          "tgt": 16329,
+          "max": 18615,
+          "actual": 17472
+        }
+      ]
+    },
+    {
+      "name": "Adjusted revenue",
+      "weight_label": "17.5% AIP · growth",
+      "axis_min": 50000,
+      "axis_max": 100000,
+      "axis_min_label": "$50B",
+      "axis_max_label": "$100B",
+      "years": [
+        {
+          "label": "FY21",
+          "thr": 55030,
+          "tgt": 60813,
+          "max": 66596,
+          "actual": 66736
+        },
+        {
+          "label": "FY22",
+          "thr": 71577,
+          "tgt": 83527,
+          "max": 89020,
+          "actual": 82722
+        },
+        {
+          "label": "FY23",
+          "thr": 82857,
+          "tgt": 91927,
+          "max": 97973,
+          "actual": 88898
+        },
+        {
+          "label": "FY24",
+          "thr": 82474,
+          "tgt": 91502,
+          "max": 97520,
+          "actual": 91361
+        },
+        {
+          "label": "FY25",
+          "thr": 86106,
+          "tgt": 92587,
+          "max": 99068,
+          "actual": 94199
+        }
+      ]
+    },
+    {
+      "name": "Adjusted after-tax free cash flow",
+      "weight_label": "17.5% AIP · profitability",
+      "axis_min": -12000,
+      "axis_max": 13000,
+      "axis_min_label": "-$12B",
+      "axis_max_label": "$13B",
+      "show_zero": true,
+      "years": [
+        {
+          "label": "FY21",
+          "thr": -11871,
+          "tgt": -8187,
+          "max": -4503,
+          "actual": -2188
+        },
+        {
+          "label": "FY22",
+          "thr": -2534,
+          "tgt": -534,
+          "max": 1466,
+          "actual": 1043
+        },
+        {
+          "label": "FY23",
+          "thr": -1552,
+          "tgt": 1448,
+          "max": 4448,
+          "actual": 2449
+        },
+        {
+          "label": "FY24",
+          "thr": 4425,
+          "tgt": 8425,
+          "max": 12425,
+          "actual": 8657
+        },
+        {
+          "label": "FY25",
+          "thr": 3464,
+          "tgt": 6464,
+          "max": 9464,
+          "actual": 8273
+        }
+      ]
+    }
+  ],
+  "matrix_rows": [
+    {
+      "group": "Annual incentive (AIP) — stable four-factor structure every year",
+      "name": "Adjusted segment operating income",
+      "cls": "Profitability · financial",
+      "cells": {
+        "FY21": {
+          "w": "35%",
+          "p": 200
+        },
+        "FY22": {
+          "w": "35%",
+          "p": 181
+        },
+        "FY23": {
+          "w": "35%",
+          "p": 92
+        },
+        "FY24": {
+          "w": "35%",
+          "p": 156
+        },
+        "FY25": {
+          "w": "35%",
+          "p": 150
+        }
+      }
+    },
+    {
+      "name": "Adjusted revenue",
+      "cls": "Growth · financial",
+      "cells": {
+        "FY21": {
+          "w": "17.5%",
+          "p": 200
+        },
+        "FY22": {
+          "w": "17.5%",
+          "p": 96
+        },
+        "FY23": {
+          "w": "17.5%",
+          "p": 78
+        },
+        "FY24": {
+          "w": "17.5%",
+          "p": 99
+        },
+        "FY25": {
+          "w": "17.5%",
+          "p": 125
+        }
+      }
+    },
+    {
+      "name": "Adjusted after-tax free cash flow",
+      "cls": "Profitability · financial",
+      "cells": {
+        "FY21": {
+          "w": "17.5%",
+          "p": 200
+        },
+        "FY22": {
+          "w": "17.5%",
+          "p": 179
+        },
+        "FY23": {
+          "w": "17.5%",
+          "p": 133
+        },
+        "FY24": {
+          "w": "17.5%",
+          "p": 106
+        },
+        "FY25": {
+          "w": "17.5%",
+          "p": 160
+        }
+      }
+    },
+    {
+      "name": "Other performance factors",
+      "cls": "Other · non-financial",
+      "cells": {
+        "FY21": {
+          "w": "30%",
+          "p": 170
+        },
+        "FY22": {
+          "w": "30%",
+          "p": 114
+        },
+        "FY23": {
+          "w": "30%",
+          "p": 145
+        },
+        "FY24": {
+          "w": "30%",
+          "p": 180
+        },
+        "FY25": {
+          "w": "30%",
+          "p": 142
+        }
+      }
+    },
+    {
+      "group": "Long-term incentive (LTIP) — 3-yr cycle, 50% rel. TSR + 50% ROIC (FY25 adds EPS growth)",
+      "name": "Relative TSR (S&P 500)",
+      "cls": "Shareholder return · market",
+      "cells": {
+        "FY21": {
+          "w": "50%",
+          "p": 0
+        },
+        "FY22": {
+          "w": "50%",
+          "p": 0
+        },
+        "FY23": {
+          "w": "50%",
+          "p": 0
+        },
+        "FY24": {
+          "w": "50%",
+          "p": "open"
+        },
+        "FY25": {
+          "w": "25%",
+          "p": "open"
+        }
+      },
+      "benchmark": {
+        "FY21": "S&P 500",
+        "FY22": "S&P 500",
+        "FY23": "S&P 500",
+        "FY24": "S&P 500",
+        "FY25": "S&P 500 Media & Entertainment Index"
+      }
+    },
+    {
+      "name": "Return on invested capital",
+      "cls": "Profitability · financial",
+      "cells": {
+        "FY21": {
+          "w": "50%",
+          "p": 134
+        },
+        "FY22": {
+          "w": "50%",
+          "p": 147
+        },
+        "FY23": {
+          "w": "50%",
+          "p": 98
+        },
+        "FY24": {
+          "w": "50%",
+          "p": "open"
+        },
+        "FY25": {
+          "w": "25%",
+          "p": "open"
+        }
+      }
+    },
+    {
+      "name": "Adjusted EPS growth",
+      "cls": "Profitability · financial",
+      "cells": {
+        "FY25": {
+          "w": "50%",
+          "p": "open"
+        }
+      }
+    }
+  ],
+  "aip_total": {
+    "FY21": 191,
+    "FY22": 97,
+    "FY23": 113,
+    "FY24": 144,
+    "FY25": 145
+  },
+  "matrix_note": "Two CEOs span the window (Chapek FY21–22, Iger FY23–25), so the AIP series is not fully continuous. The AIP structure itself held constant: 35% segment operating income, 17.5% revenue, 17.5% free cash flow, 30% other factors. LTIP rows are shown in the grant-start year column: relative TSR paid 0% in all three completed cycles (Disney underperformed the S&amp;P 500 through the streaming-investment years), so the equity earned out on ROIC alone, completing at 66.9%, 73.4% and 48.9% of target. The FY25 grant restructured to 25% rel. TSR + 25% ROIC + 50% adjusted EPS growth and switched the TSR benchmark to a media-and-entertainment index.",
+  "modifiers_gates": [],
+  "modifiers_note": "",
+  "pay_structure_caption": "Long-term award composition by grant year as % of target award. DIS dropped RSUs after FY22, moving to a PSU + options mix.",
+  "pay_legend": "<div class=\"legend\"><span><span class=\"sw\" style=\"background:#534AB7\"></span>PSUs (TSR / ROIC / EPS)</span><span><span class=\"sw\" style=\"background:#7F77DD\"></span>RSUs</span><span><span class=\"sw\" style=\"background:#b4b2a9\"></span>Options</span></div>",
+  "pay_structure": {
+    "years": [
+      "FY21",
+      "FY22",
+      "FY23",
+      "FY24",
+      "FY25"
+    ],
+    "series": [
+      {
+        "color": "#534AB7",
+        "values": [
+          50,
+          50,
+          60,
+          60,
+          60
+        ]
+      },
+      {
+        "color": "#7F77DD",
+        "values": [
+          25,
+          25,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "color": "#b4b2a9",
+        "values": [
+          25,
+          25,
+          40,
+          40,
+          40
+        ]
+      }
+    ]
+  },
+  "pay_structure_note": "FY21–22 grants split 50% PSU / 25% RSU / 25% options; from FY23 RSUs were dropped for a 60% PSU / 40% options mix. PSUs vest on relative TSR and ROIC (plus adjusted EPS growth from the FY25 grant). Regular CEO target award value rose to $30–35M for Iger. Excludes small ROIC-only special PSU grants and the additive annual cash bonus.",
+  "realization": {
+    "years": [
+      {
+        "fy": "FY21",
+        "base": "$2.5M",
+        "target": "$7.5M",
+        "payout": 191,
+        "realized": "$14.33M",
+        "realized_pct_of_cap": 96,
+        "target_pct_of_cap": 50,
+        "at_or_above_target": true,
+        "mult": "5.73×",
+        "base_num": 2500000,
+        "target_num": 7500000,
+        "realized_num": 14330000
+      },
+      {
+        "fy": "FY22",
+        "base": "$2.5M",
+        "target": "$7.5M",
+        "payout": 97,
+        "realized": "$7.29M",
+        "realized_pct_of_cap": 49,
+        "target_pct_of_cap": 50,
+        "at_or_above_target": false,
+        "mult": "2.92×",
+        "base_num": 2500000,
+        "target_num": 7500000,
+        "realized_num": 7290000
+      },
+      {
+        "fy": "FY23",
+        "base": "$1.0M",
+        "target": "$5.0M",
+        "payout": 113,
+        "realized": "$2.14M",
+        "realized_pct_of_cap": 56,
+        "target_pct_of_cap": 50,
+        "at_or_above_target": true,
+        "mult": "2.14×",
+        "base_num": 1000000,
+        "target_num": 5000000,
+        "realized_num": 2140000
+      },
+      {
+        "fy": "FY24",
+        "base": "$1.0M",
+        "target": "$5.0M",
+        "payout": 144,
+        "realized": "$7.22M",
+        "realized_pct_of_cap": 72,
+        "target_pct_of_cap": 50,
+        "at_or_above_target": true,
+        "mult": "7.22×",
+        "base_num": 1000000,
+        "target_num": 5000000,
+        "realized_num": 7220000
+      },
+      {
+        "fy": "FY25",
+        "base": "$1.0M",
+        "target": "$5.0M",
+        "payout": 145,
+        "realized": "$7.25M",
+        "realized_pct_of_cap": 72,
+        "target_pct_of_cap": 50,
+        "at_or_above_target": true,
+        "mult": "7.25×",
+        "base_num": 1000000,
+        "target_num": 5000000,
+        "realized_num": 7250000
+      }
+    ],
+    "note": "Targets differ by CEO: Chapek carried a $2.5M base / 300% target; Iger a $1.0M base / 500% target. Opportunity ceiling is 200% of target. The FY23 realized figure ($2.14M) is well below the others despite a 113% multiplier — Iger's first bonus was prorated for his partial (return) year — so it is not comparable to the full-year FY24/FY25 payouts. Bar fills shown as closeness-to-cap."
+  },
+  "classification_rule": "<b>Classification rule.</b> Metrics are bucketed by underlying measure, not verb. Segment operating income, free cash flow, ROIC and adjusted EPS growth &rarr; <b>profitability</b>. Revenue &rarr; <b>growth</b>. Relative TSR vs. the S&amp;P 500 &rarr; <b>shareholder return</b> (a weighted LTIP metric here, so it places the dot). The AIP “Other Performance Factors” (D&amp;I/talent, synergy, storytelling &amp; creativity) &rarr; <b>other</b>. AIP and LTIP weighted equally.",
+  "provenance_html": "<div style=\"font-size:11.5px;color:#6b6860;background:#f4f2ec;border:1px solid #e5e2db;border-radius:3px;padding:10px 14px;line-height:1.5\"><b style=\"color:#1a1a2e\">CEO succession (March 18, 2026).</b> After the FY25 window, Robert Iger stepped down as CEO and became a senior adviser; <b style=\"color:#1a1a2e\">Josh D'Amaro</b> (former Chairman of Disney Experiences) was appointed CEO and to the Board (Item 5.02). At the same March 18 annual meeting, the say-on-pay vote drew a striking <b style=\"color:#1a1a2e\">~14% against</b> (1.09B for vs. 181.8M against) — the loudest pay dissent among large consumer names this cycle, consistent with the long-term plan's repeated zero TSR payouts. No special or off-cadence mega-grant was found in the research record (only minor ROIC-only PSU true-ups).</div>",
+  "footer": "<b>Sources:</b> Verity / InsiderScore incentive-plan data (annual &amp; long-term), proxy statements, research, and SEC filings (8-K). Orientation classification is rules-based and auditable per the note above. AIP figures are CEO annual cash incentive across two CEOs (Chapek FY21–22, Iger FY23–25), not fully continuous. Three LTIP cycles complete (66.9%, 73.4%, 48.9%), each earning out on ROIC after relative TSR paid 0%; FY24–25 cycles open. Data current through run date. <b>Not investment advice.</b>",
+  "takeaway": "The defining tension: Disney's leadership has been <b>paid solidly on operating results while the stock-based half of the plan repeatedly paid nothing</b> — relative TSR earned 0% in all three completed long-term cycles, so the equity vested only on ROIC. That gap (good fundamentals, market underperformance) is the story, and it now shows up as a loud <b>~14% say-on-pay dissent</b> at the March 2026 meeting. The plan itself is conservative and profitability-disciplined — segment operating income, free cash flow and ROIC dominate, with revenue a minor 17.5% and the FY25 grant tilting further toward <b>EPS growth and away from relative TSR</b>. The read: management is incentivized to <b>compound profit and capital efficiency</b>, and the board is quietly conceding the market-relative bar by cutting its weight. Watch the new CEO — Josh D'Amaro succeeded Iger in March 2026 — whose go-forward package will redefine the incentive against a still-skeptical tape."
+}
