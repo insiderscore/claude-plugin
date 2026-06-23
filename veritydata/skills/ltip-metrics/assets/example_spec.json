@@ -1,0 +1,46 @@
+{
+  "group": "Illustrative tech set (example)",
+  "asof": "June 2026",
+  "takeaway": "Three of five names introduced a new LTIP metric in their latest grant cycle. The standout is Salesforce, which added an Agentforce/Data 360 ARR goal and a blended Margin & Growth measure \u2014 a clear pivot toward monetizing its AI stack alongside the long-standing rTSR and margin metrics. New growth/AI-tied metrics, when they show up, tend to signal where management now wants the market to judge them.",
+  "classification_rule": "A metric is 'new' if its normalized base name (tranche-year suffixes stripped, e.g. '- Year 1/2/3') appears in the latest metric-bearing LTIP grant cycle but not in the immediately prior metric-bearing cycle. rTSR-as-modifier and funding gates are not counted as metrics. Names with fewer than two metric-bearing cycles are listed under 'not screened'.",
+  "footer": "Source: Verity (InsiderScore) long-term incentive plan data, Form DEF 14A. Describes incentive-plan design, not company quality or stock merit \u2014 not investment advice.",
+  "points": [
+    {
+      "ticker": "CRM",
+      "company": "Salesforce",
+      "prior_cycle": "FY24\u201326",
+      "latest_cycle": "FY26\u201328",
+      "new": ["Agentforce & Data 360 ARR", "Margin & Growth"],
+      "carried": ["Relative TSR", "Non-GAAP Operating Margin"],
+      "dropped": [],
+      "note": "Adds a discrete AI-product ARR target and a blended growth+margin measure; tilts the plan toward AI monetization."
+    },
+    {
+      "ticker": "EXMP",
+      "company": "Example Software Co",
+      "prior_cycle": "FY24\u201326",
+      "latest_cycle": "FY25\u201327",
+      "new": ["Free Cash Flow Margin"],
+      "carried": ["Relative TSR", "Revenue Growth"],
+      "dropped": ["Bookings"],
+      "note": "Swaps a bookings target for an FCF-margin target \u2014 a discipline/profitability tilt."
+    },
+    {
+      "ticker": "DEMO",
+      "company": "Demo Holdings",
+      "prior_cycle": "FY23\u201325",
+      "latest_cycle": "FY25\u201327",
+      "new": ["Absolute TSR"],
+      "carried": ["Relative TSR"],
+      "dropped": [],
+      "note": "Layers an absolute-TSR hurdle on top of relative \u2014 raises the shareholder-return bar."
+    }
+  ],
+  "no_change": [
+    {"ticker": "SAME", "reason": "FY26 cycle metric set identical to FY25 (Relative TSR + EPS)"}
+  ],
+  "not_screened": [
+    {"ticker": "NEWB", "reason": "only one metric-bearing LTIP cycle on file \u2014 nothing to compare against"},
+    {"ticker": "RSUO", "reason": "latest grant is 100% time-vested RSUs \u2014 no weighted metric in either cycle"}
+  ]
+}

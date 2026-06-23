@@ -1,0 +1,504 @@
+{
+ "group": "Aventail \u2014 top 50 holdings by position value (Q1'26 13F)",
+ "asof": "June 2026",
+ "takeaway": "A book built on profitability-paid managements: 44 of 50 names plot left of center, anchored by EPS/EBITDA/FCF bonus plans, while near-universal rTSR PSUs pull the column upward \u2014 PR, DVN, OKE, TRGP, NRG, WWD and WWD-like designs sit at the shareholder-return pole. The exceptions are regulatory: XEL pays its bonus on a 100% operations scorecard and PCG ties a majority of both plans to wildfire and safety outcomes.",
+ "classification_rule": "One row per company, latest FY, ranked by shareholder-return tilt (SR share minus other-objectives share). Bars show each company's weighted incentive-metric mix; AIP and LTIP blended 50/50 (100% to the pot present when one is absent; scope noted). rTSR used as a modifier is excluded. Undisclosed weights split equally (noted).",
+ "footer": "Source: Verity (InsiderScore) incentive compensation data, latest proxy-disclosed AIP year and LTIP grant with weighted metrics.",
+ "highlight": [],
+ "points": [
+  {
+   "ticker": "ETR",
+   "company": "Entergy",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.35,
+   "sr": 0.4,
+   "other": 0.25,
+   "mcap": 50.3
+  },
+  {
+   "ticker": "NFG",
+   "company": "National Fuel Gas",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.615,
+   "sr": 0.24,
+   "other": 0.145,
+   "mcap": 7.3,
+   "note": "Relative ROC in LTIP -> profitability"
+  },
+  {
+   "ticker": "CNP",
+   "company": "CenterPoint Energy",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.6,
+   "sr": 0.25,
+   "other": 0.15,
+   "mcap": 27.8,
+   "note": "P/E gate on LTIP PSUs"
+  },
+  {
+   "ticker": "ATO",
+   "company": "Atmos Energy",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 1.0,
+   "sr": 0.0,
+   "other": 0.0,
+   "mcap": 28.1,
+   "note": "100% EPS AIP + 100% cumulative-EPS PSUs"
+  },
+  {
+   "ticker": "CNX",
+   "company": "CNX Resources",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.5,
+   "sr": 0.4,
+   "other": 0.1,
+   "mcap": 4.5,
+   "note": "2025 special price-hurdle PSUs ($60.24/$86.75)"
+  },
+  {
+   "ticker": "APA",
+   "company": "APA",
+   "fy": "2025",
+   "growth": 0.05,
+   "profitability": 0.5,
+   "sr": 0.3,
+   "other": 0.15,
+   "mcap": 13.0
+  },
+  {
+   "ticker": "GEV",
+   "company": "GE Vernova",
+   "fy": "2025",
+   "growth": 0.1,
+   "profitability": 0.9,
+   "sr": 0.0,
+   "other": 0.0,
+   "mcap": 243.8,
+   "note": "rTSR modifier on PSUs excluded"
+  },
+  {
+   "ticker": "PPL",
+   "company": "PPL",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.45,
+   "sr": 0.25,
+   "other": 0.3,
+   "mcap": 26.7,
+   "note": "AIP gated on EPS"
+  },
+  {
+   "ticker": "NRG",
+   "company": "NRG Energy",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.45,
+   "sr": 0.5,
+   "other": 0.05,
+   "mcap": 26.1,
+   "note": "Gaudette becomes CEO Apr-26"
+  },
+  {
+   "ticker": "WWD",
+   "company": "Woodward",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.4,
+   "sr": 0.5,
+   "other": 0.1,
+   "mcap": 23.1
+  },
+  {
+   "ticker": "AEE",
+   "company": "Ameren",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.35,
+   "sr": 0.4285,
+   "other": 0.2215,
+   "mcap": 30.0
+  },
+  {
+   "ticker": "AEP",
+   "company": "American Electric Power",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.4167,
+   "sr": 0.25,
+   "other": 0.3333,
+   "mcap": 69.9,
+   "note": "EPS-gated AIP; $15M Dec-25 special 5-yr rTSR PSU/RSU award"
+  },
+  {
+   "ticker": "ATI",
+   "company": "ATI",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.45,
+   "sr": 0.5,
+   "other": 0.05,
+   "mcap": 27.2,
+   "note": "~$6M EVA price-hurdle grant ($135/$195)"
+  },
+  {
+   "ticker": "LNT",
+   "company": "Alliant Energy",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.5833,
+   "sr": 0.2333,
+   "other": 0.1835,
+   "mcap": 18.8
+  },
+  {
+   "ticker": "MOD",
+   "company": "Modine Manufacturing",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 1.0,
+   "sr": 0.0,
+   "other": 0.0,
+   "mcap": 14.3,
+   "note": "EBITDA growth metrics classified as profitability"
+  },
+  {
+   "ticker": "NXT",
+   "company": "Nextracker",
+   "fy": "2025",
+   "growth": 0.25,
+   "profitability": 0.65,
+   "sr": 0.0,
+   "other": 0.1,
+   "mcap": 18.0,
+   "note": "3-yr rTSR modifier on PSUs excluded"
+  },
+  {
+   "ticker": "OVV",
+   "company": "Ovintiv",
+   "fy": "2025",
+   "growth": 0.075,
+   "profitability": 0.575,
+   "sr": 0.25,
+   "other": 0.1,
+   "mcap": 15.9
+  },
+  {
+   "ticker": "PEG",
+   "company": "Public Service Enterprise",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.45,
+   "sr": 0.25,
+   "other": 0.3,
+   "mcap": 39.3
+  },
+  {
+   "ticker": "SRE",
+   "company": "Sempra",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.65,
+   "sr": 0.25,
+   "other": 0.1,
+   "mcap": 59.8,
+   "note": "EPS CAGR ranked vs S&P 500 Utilities"
+  },
+  {
+   "ticker": "TRGP",
+   "company": "Targa Resources",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.21,
+   "sr": 0.5,
+   "other": 0.29,
+   "mcap": 57.8,
+   "note": "AIP weights largely undisclosed; equal split assumed"
+  },
+  {
+   "ticker": "DTE",
+   "company": "DTE Energy",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.3,
+   "sr": 0.4,
+   "other": 0.3,
+   "mcap": 30.3
+  },
+  {
+   "ticker": "DUK",
+   "company": "Duke Energy",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.475,
+   "sr": 0.2,
+   "other": 0.325,
+   "mcap": 96.8
+  },
+  {
+   "ticker": "ES",
+   "company": "Eversource Energy",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.46,
+   "sr": 0.285,
+   "other": 0.255,
+   "mcap": 25.7,
+   "note": "AIP dividend growth (7%) -> shareholder return"
+  },
+  {
+   "ticker": "FE",
+   "company": "FirstEnergy",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.625,
+   "sr": 0.175,
+   "other": 0.2,
+   "mcap": 27.0
+  },
+  {
+   "ticker": "LII",
+   "company": "Lennox International",
+   "fy": "2025",
+   "growth": 0.1,
+   "profitability": 0.9,
+   "sr": 0.0,
+   "other": 0.0,
+   "mcap": 18.0
+  },
+  {
+   "ticker": "SLB",
+   "company": "SLB",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.6835,
+   "sr": 0.1665,
+   "other": 0.15,
+   "mcap": 83.7
+  },
+  {
+   "ticker": "XEL",
+   "company": "Xcel Energy",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.15,
+   "sr": 0.0,
+   "other": 0.85,
+   "mcap": 48.9,
+   "note": "AIP 100% ops scorecard (EPS gate + 50-150% funding modifier); LTIP rTSR modifier"
+  },
+  {
+   "ticker": "AR",
+   "company": "Antero Resources",
+   "fy": "2025",
+   "growth": 0.125,
+   "profitability": 0.55,
+   "sr": 0.25,
+   "other": 0.075,
+   "mcap": 10.6,
+   "note": "LTIP absolute-TSR tranches + net debt/EBITDAX"
+  },
+  {
+   "ticker": "BWA",
+   "company": "BorgWarner",
+   "fy": "2025",
+   "growth": 0.125,
+   "profitability": 0.625,
+   "sr": 0.25,
+   "other": 0.0,
+   "mcap": 15.4
+  },
+  {
+   "ticker": "CAT",
+   "company": "Caterpillar",
+   "fy": "2025",
+   "growth": 0.17,
+   "profitability": 0.58,
+   "sr": 0.25,
+   "other": 0.0,
+   "mcap": 413.4,
+   "note": "Services & ESG +/-10% AIP modifiers excluded"
+  },
+  {
+   "ticker": "CVX",
+   "company": "Chevron",
+   "fy": "2025",
+   "growth": 0.0416,
+   "profitability": 0.425,
+   "sr": 0.35,
+   "other": 0.1834,
+   "mcap": 370.1,
+   "note": "AIP category weights split equally among metrics"
+  },
+  {
+   "ticker": "DVN",
+   "company": "Devon Energy",
+   "fy": "2025",
+   "growth": 0.05,
+   "profitability": 0.3,
+   "sr": 0.5,
+   "other": 0.15,
+   "mcap": 51.5
+  },
+  {
+   "ticker": "FTAI",
+   "company": "FTAI Aviation",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.625,
+   "sr": 0.25,
+   "other": 0.125,
+   "mcap": 24.8,
+   "note": "First regular LTIP in 2025; $23.7M 2024 internalization TSR-CAGR award"
+  },
+  {
+   "ticker": "NEE",
+   "company": "NextEra Energy",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.7512,
+   "sr": 0.0,
+   "other": 0.2487,
+   "mcap": 176.9,
+   "note": "rTSR modifier on PSUs excluded"
+  },
+  {
+   "ticker": "OKE",
+   "company": "ONEOK",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.4,
+   "sr": 0.5,
+   "other": 0.1,
+   "mcap": 56.2
+  },
+  {
+   "ticker": "BKR",
+   "company": "Baker Hughes",
+   "fy": "2025",
+   "growth": 0.05,
+   "profitability": 0.8,
+   "sr": 0.0,
+   "other": 0.15,
+   "mcap": 63.0,
+   "note": "rTSR modifier on PSUs excluded"
+  },
+  {
+   "ticker": "OXY",
+   "company": "Occidental Petroleum",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.6,
+   "sr": 0.25,
+   "other": 0.15,
+   "mcap": 55.0
+  },
+  {
+   "ticker": "PCG",
+   "company": "PG&E",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.15,
+   "sr": 0.175,
+   "other": 0.675,
+   "mcap": 37.0,
+   "note": "Wildfire/safety dominate both AIP (60%) and LTIP (65%)"
+  },
+  {
+   "ticker": "PNW",
+   "company": "Pinnacle West Capital",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.45,
+   "sr": 0.2,
+   "other": 0.35,
+   "mcap": 12.4,
+   "note": "AIP gated on earnings"
+  },
+  {
+   "ticker": "PSX",
+   "company": "Phillips 66",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.5,
+   "sr": 0.25,
+   "other": 0.25,
+   "mcap": 71.4
+  },
+  {
+   "ticker": "BKV",
+   "company": "BKV Corp",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.4166,
+   "sr": 0.3333,
+   "other": 0.25,
+   "mcap": 2.7,
+   "note": "FY24 AIP (latest databased); 2024 LTIP grant (2025 grant 100% RSUs)"
+  },
+  {
+   "ticker": "PR",
+   "company": "Permian Resources",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.0,
+   "sr": 1.0,
+   "other": 0.0,
+   "mcap": 16.1,
+   "scope": "LTIP only (no AIP)",
+   "note": "100% TSR PSUs: 50% relative + 50% absolute"
+  },
+  {
+   "ticker": "KGS",
+   "company": "Kodiak Gas Services",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.6,
+   "sr": 0.3,
+   "other": 0.1,
+   "mcap": 6.8,
+   "scope": "LTIP only (FY25 AIP not yet databased)"
+  },
+  {
+   "ticker": "SO",
+   "company": "Southern Company",
+   "fy": "2025",
+   "growth": 0.0,
+   "profitability": 0.4918,
+   "sr": 0.267,
+   "other": 0.2412,
+   "mcap": 98.0,
+   "note": "Carried over from watchlist run"
+  }
+ ],
+ "not_plotted": [
+  {
+   "ticker": "IMO",
+   "reason": "foreign filer (Canada) \u2014 no US proxy comp data"
+  },
+  {
+   "ticker": "SHEL",
+   "reason": "foreign filer (UK) \u2014 no US proxy comp data"
+  },
+  {
+   "ticker": "HVII",
+   "reason": "SPAC \u2014 not covered"
+  },
+  {
+   "ticker": "MWH",
+   "reason": "not covered"
+  },
+  {
+   "ticker": "MTZ",
+   "reason": "no weighted metric plan: discretionary AIP ($800M EBITDA gate) + 100% time-vested RSUs"
+  },
+  {
+   "ticker": "SOC",
+   "reason": "no weighted metric plan: no AIP; $69M nine-year time-vested RSU grant"
+  }
+ ]
+}

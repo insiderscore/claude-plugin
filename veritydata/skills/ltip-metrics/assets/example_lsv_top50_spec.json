@@ -1,0 +1,388 @@
+{
+ "group": "LSV Asset Management — top 50 holdings by position value (Q1'26 13F)",
+ "asof": "June 2026",
+ "takeaway": "Of the 49 screened names (one position, DOX, wasn't returned by the data provider), 13 introduced a genuinely new LTIP metric in their latest grant cycle — the rest either left their metric set unchanged or only relabeled existing metrics. The clearest signal is a tilt toward balance-sheet and cash discipline: AIG added tangible book value per share, MPC added relative FCF-per-share, FDX added ROIC, and CVS added a debt-paydown ratio. A second cluster is pharma reweighting toward EPS (PFE, GILD). Several apparent 'changes' were filtered out as pure relabels (MRK, BAC, MTG, QCOM, PHM), which is where most naive screens would produce false positives.",
+ "classification_rule": "A metric is 'new' if its normalized base name (tranche-year suffixes stripped, rTSR-modifiers and gates excluded, common abbreviations canonicalized) is present in the latest metric-bearing LTIP cycle but absent from the prior one. Pure relabels (e.g. 'Non-GAAP EPS' vs 'Non-GAAP Earnings Per Share (EPS)') and 'Relative X' prefix changes were reviewed by hand and excluded as not-new.",
+ "footer": "Source: Verity (InsiderScore) long-term incentive plan data, Form DEF 14A. Describes incentive-plan design, not company quality or stock merit — not investment advice.",
+ "points": [
+  {
+   "ticker": "JAZZ",
+   "company": "Jazz Pharmaceuticals",
+   "prior_cycle": "FY24–26",
+   "latest_cycle": "FY25–27",
+   "new": [
+    "2027 Epidiolex Revenue",
+    "2027 Zepzelca Revenue",
+    "Xywav Patients on Therapy",
+    "Pipeline",
+    "Corporate Development"
+   ],
+   "carried": [
+    "Relative TSR"
+   ],
+   "dropped": [
+    "Epidiolex & Oncology Revenue",
+    "Pipeline Value"
+   ],
+   "note": "CEO transition reshaped the plan into discrete product-revenue, pipeline and BD goals; heaviest redesign in the book."
+  },
+  {
+   "ticker": "AIG",
+   "company": "American International Group",
+   "prior_cycle": "FY24–26",
+   "latest_cycle": "FY25–27",
+   "new": [
+    "Adjusted Tangible Book Value per Share",
+    "Relative Calendar-Year Combined Ratio"
+   ],
+   "carried": [
+    "Accident-Year Combined Ratio (adj.)",
+    "Diluted AATI per Share",
+    "Relative TSR"
+   ],
+   "dropped": [
+    "AIG Parent GOE Exit Run-Rate",
+    "Relative Performance to GI Peers"
+   ],
+   "note": "Adds a book-value-per-share target and a calendar-year combined-ratio measure — a tilt toward capital and underwriting quality."
+  },
+  {
+   "ticker": "CVS",
+   "company": "CVS Health",
+   "prior_cycle": "FY24–26",
+   "latest_cycle": "FY25–27",
+   "new": [
+    "Debt Pay-Down Ratio",
+    "Medicare Stars Performance",
+    "Customer Engagement"
+   ],
+   "carried": [
+    "Cumulative Adjusted EPS"
+   ],
+   "dropped": [
+    "CostVantage member %",
+    "Medicare 4+ Star %",
+    "Multi-offering customer %"
+   ],
+   "note": "Swaps three strategic sub-metrics for a debt-paydown ratio, a Stars measure and a customer-engagement goal — deleveraging now explicitly paid for."
+  },
+  {
+   "ticker": "BWA",
+   "company": "BorgWarner",
+   "prior_cycle": "FY24–26",
+   "latest_cycle": "FY25–27",
+   "new": [
+    "Relative Revenue Growth",
+    "Cumulative Adjusted EPS"
+   ],
+   "carried": [
+    "Relative TSR"
+   ],
+   "dropped": [
+    "eProducts Revenue",
+    "eProducts AOM",
+    "Foundational AOM"
+   ],
+   "note": "Drops the EV-product 'eProducts' metrics for relative revenue growth and cumulative EPS — a step back from the EV-transition scorecard toward conventional financials."
+  },
+  {
+   "ticker": "MPC",
+   "company": "Marathon Petroleum",
+   "prior_cycle": "FY24–26",
+   "latest_cycle": "FY25–27",
+   "new": [
+    "Relative Change in FCF per Share"
+   ],
+   "carried": [
+    "Relative TSR (as PSU TSR)"
+   ],
+   "dropped": [],
+   "note": "Long a 100%-rTSR plan; now layers in a relative FCF-per-share metric — first cash-return financial measure in the LTIP."
+  },
+  {
+   "ticker": "GM",
+   "company": "General Motors",
+   "prior_cycle": "FY24–26",
+   "latest_cycle": "FY25–27",
+   "new": [
+    "Relative Operating Cash Flow % of Revenue",
+    "Relative EBIT-adjusted Margin"
+   ],
+   "carried": [
+    "Relative TSR"
+   ],
+   "dropped": [
+    "Cumulative AAOCF",
+    "EBIT-adjusted Margin (absolute)"
+   ],
+   "note": "Reframes cash-flow and margin goals as peer-relative — management now judged against other OEMs on cash and margin, not just absolute targets."
+  },
+  {
+   "ticker": "FDX",
+   "company": "FedEx",
+   "prior_cycle": "FY24–26",
+   "latest_cycle": "FY25–27",
+   "new": [
+    "ROIC"
+   ],
+   "carried": [
+    "Relative TSR",
+    "EPS"
+   ],
+   "dropped": [
+    "CapEx/Revenue"
+   ],
+   "note": "Replaces a capex-intensity metric with ROIC — capital-efficiency framed as a return rather than a spend ratio."
+  },
+  {
+   "ticker": "PFE",
+   "company": "Pfizer",
+   "prior_cycle": "FY24–26",
+   "latest_cycle": "FY25–27",
+   "new": [
+    "Adjusted Diluted EPS"
+   ],
+   "carried": [
+    "5-Yr TSR"
+   ],
+   "dropped": [
+    "7-Yr TSR",
+    "Adjusted Net Income"
+   ],
+   "note": "Adds an EPS metric and drops the very-long-dated 7-year TSR — a shift toward a more conventional, nearer-term earnings measure."
+  },
+  {
+   "ticker": "GILD",
+   "company": "Gilead Sciences",
+   "prior_cycle": "FY24–26",
+   "latest_cycle": "FY25–27",
+   "new": [
+    "Adjusted EPS Growth"
+   ],
+   "carried": [
+    "Relative TSR"
+   ],
+   "dropped": [
+    "Net Product Revenue"
+   ],
+   "note": "Replaces the long-standing net-product-revenue target with EPS growth — first earnings-based metric in the LTIP, a profitability tilt."
+  },
+  {
+   "ticker": "STT",
+   "company": "State Street",
+   "prior_cycle": "FY24–26",
+   "latest_cycle": "FY25–27",
+   "new": [
+    "Total Revenue Growth"
+   ],
+   "carried": [
+    "Average Pre-Tax Margin"
+   ],
+   "dropped": [
+    "Fee Revenue Growth"
+   ],
+   "note": "Broadens the growth metric from fee revenue to total revenue — net interest income now counts toward the long-term payout."
+  },
+  {
+   "ticker": "EXPE",
+   "company": "Expedia",
+   "prior_cycle": "FY24–26",
+   "latest_cycle": "FY25–27",
+   "new": [
+    "Revenue Growth (annual)",
+    "Adjusted EBITDA Margin Growth"
+   ],
+   "carried": [],
+   "dropped": [
+    "Revenue CAGR",
+    "Adjusted EBITDA CAGR"
+   ],
+   "note": "Reframes the two financial goals from three-year CAGRs to annual growth and adds a margin-growth dimension — a profitability emphasis on top of growth."
+  },
+  {
+   "ticker": "BMY",
+   "company": "Bristol-Myers Squibb",
+   "prior_cycle": "FY24–26",
+   "latest_cycle": "FY25–27",
+   "new": [
+    "Non-GAAP Operating Income"
+   ],
+   "carried": [
+    "Growth Portfolio Revenue (Ex-FX)",
+    "Relative TSR CAGR"
+   ],
+   "dropped": [
+    "Non-GAAP Operating Margin"
+   ],
+   "note": "Swaps the operating-margin metric for an operating-income (dollar) metric — a subtle shift from rate to absolute profit."
+  },
+  {
+   "ticker": "CRUS",
+   "company": "Cirrus Logic",
+   "prior_cycle": "FY25–28",
+   "latest_cycle": "FY26–29",
+   "new": [
+    "Relative TSR"
+   ],
+   "carried": [],
+   "dropped": [
+    "Revenue",
+    "Revenue Growth",
+    "MSU"
+   ],
+   "note": "Reverts to a 100%-relative-TSR plan after a one-cycle experiment with revenue-based PSUs; a reversion rather than a fresh metric, flagged for context."
+  }
+ ],
+ "no_change": [
+  {
+   "ticker": "BK",
+   "reason": "FY25–27 metric set (Avg Adjusted ROTCE + Relative TSR) identical to FY24–26"
+  },
+  {
+   "ticker": "C",
+   "reason": "FY25–27 metric set (Avg RoTCE + Cumulative TBVPS) unchanged for five cycles"
+  },
+  {
+   "ticker": "WFC",
+   "reason": "FY25–27 metric set (Absolute + Relative ROTCE) unchanged"
+  },
+  {
+   "ticker": "CSCO",
+   "reason": "FY25–27 collapses to a single Operating-Income metric already used; rTSR remains a modifier"
+  },
+  {
+   "ticker": "T",
+   "reason": "FY25–27 metric set (Adj EPS Growth + ROIC) unchanged; rTSR a modifier"
+  },
+  {
+   "ticker": "VZ",
+   "reason": "FY25–27 metric set (Adj EPS + FCF + Wireless Service Revenue) unchanged"
+  },
+  {
+   "ticker": "EBAY",
+   "reason": "FY25–27 metric set (FX-Neutral Revenue + Non-GAAP Op Margin $) unchanged"
+  },
+  {
+   "ticker": "HIG",
+   "reason": "FY25–27 metric set (Comp Core ROE + Relative TSR) unchanged"
+  },
+  {
+   "ticker": "KR",
+   "reason": "FY25–27 metric set (Total Sales + Value-Creation iTSR) unchanged"
+  },
+  {
+   "ticker": "ALL",
+   "reason": "FY25–27 metric set (Avg Perf Net Income ROE + Relative TSR) unchanged"
+  },
+  {
+   "ticker": "ARW",
+   "reason": "FY25–27 metric set (Relative EPS Growth + ROIC-WACC) unchanged"
+  },
+  {
+   "ticker": "FHN",
+   "reason": "FY25–27 single metric (Relative Adjusted ROTCE) unchanged"
+  },
+  {
+   "ticker": "GS",
+   "reason": "FY26–28 metric set (3-Yr Avg Absolute + Relative ROE) unchanged"
+  },
+  {
+   "ticker": "HPE",
+   "reason": "FY25–27 metric set (Non-GAAP Net Income Growth 2Yr/3Yr) unchanged"
+  },
+  {
+   "ticker": "R",
+   "reason": "FY25–27 metric set (FCF + Strategic Revenue Growth + ROE) unchanged"
+  },
+  {
+   "ticker": "MRK",
+   "reason": "relabel only — 'Non-GAAP EPS' = 'Non-GAAP Earnings Per Share (EPS)'; TSR unchanged"
+  },
+  {
+   "ticker": "BAC",
+   "reason": "relabel only — 'ROA'/'Growth in Adj TBV' = prior 'Three-Year Average' versions; proxy states metrics unchanged"
+  },
+  {
+   "ticker": "MTG",
+   "reason": "relabel only — 'Cumulative Adjusted Book Value per Share Growth' = prior 'Three-Year Cumulative ABV Growth'"
+  },
+  {
+   "ticker": "QCOM",
+   "reason": "relabel only — 'Earnings Per Share (EPS)' = prior 'Adjusted EPS'; Relative TSR unchanged"
+  },
+  {
+   "ticker": "PHM",
+   "reason": "relabel only — FY25 drops the 'Relative' prefix added in FY24; underlying OpMargin/ROE/TSR unchanged"
+  },
+  {
+   "ticker": "NEM",
+   "reason": "tranche-label artifact only on the carbon-emissions metric; ROCE + Relative TSR unchanged"
+  },
+  {
+   "ticker": "CMCSA",
+   "reason": "metric set unchanged in latest cycle"
+  },
+  {
+   "ticker": "MO",
+   "reason": "metric set unchanged in latest cycle"
+  },
+  {
+   "ticker": "HCA",
+   "reason": "metric set unchanged in latest cycle"
+  },
+  {
+   "ticker": "INCY",
+   "reason": "metric set unchanged in latest cycle"
+  },
+  {
+   "ticker": "CFG",
+   "reason": "metric set unchanged in latest cycle"
+  },
+  {
+   "ticker": "SNX",
+   "reason": "metric set unchanged in latest cycle"
+  },
+  {
+   "ticker": "TXT",
+   "reason": "metric set unchanged in latest cycle"
+  },
+  {
+   "ticker": "EXEL",
+   "reason": "metric set unchanged in latest cycle"
+  },
+  {
+   "ticker": "OSK",
+   "reason": "metric set unchanged in latest cycle"
+  },
+  {
+   "ticker": "VLO",
+   "reason": "metric set unchanged in latest cycle"
+  },
+  {
+   "ticker": "FOX",
+   "reason": "metric set unchanged in latest cycle"
+  }
+ ],
+ "not_screened": [
+  {
+   "ticker": "GOOGL",
+   "reason": "only one metric-bearing LTIP cycle on file (triennial CEO grant; most years are 'No LTIP')"
+  },
+  {
+   "ticker": "DELL",
+   "reason": "CEO (M. Dell) takes no equity — every cycle is 'No LTIP'"
+  },
+  {
+   "ticker": "DBX",
+   "reason": "CEO on a 2017 multi-year grant — every cycle is 'No LTIP'"
+  },
+  {
+   "ticker": "XOM",
+   "reason": "no weighted-metric LTIP cycles on file (career-share / time-vested program)"
+  },
+  {
+   "ticker": "DOX",
+   "reason": "not returned by the data provider in this run — not screened"
+  }
+ ]
+}
