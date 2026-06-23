@@ -1,5 +1,5 @@
 ---
-name: new-ltip-metrics
+name: ltip-metrics
 description: Screen a SET of public companies for names that introduced a NEW long-term incentive (LTIP) metric in their latest grant cycle versus the prior one, and render a sortable VerityData-styled HTML table (one row per hit: prior→latest cycle, count of new metrics, latest metric set with new ones highlighted). A metric is "new" if its normalized base name is in the latest metric-bearing cycle but absent from the prior. Use to find where management changed what its long-term plan rewards — trigger on "names with new LTIP metrics", "who added a new LTIP/PSU metric", "what changed in the long-term plans across [fund/watchlist/sector]", "did anyone add a [growth/FCF/TSR] metric", or a bare universe/list after a prior run. Accepts any universe: a fund/13F filer’s holdings, a watchlist, a sector, or a ticker list. This is the cross-cycle CHANGE screen; use incentive-orientation-table for the static metric-mix view and incentive-grid/incentive-tearsheet for single-company deep dives. Requires the Verity MCP connection.
 ---
 

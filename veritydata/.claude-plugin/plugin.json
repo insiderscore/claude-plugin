@@ -1,6 +1,6 @@
 {
   "name": "veritydata",
-  "description": "VerityData Idea Discovery Dashboard (VIDD) — builds an interactive React artifact showcasing insider research briefs through six curated Spotlight views for portfolio managers, analysts, and traders.",
+  "description": "VerityData - Skills & MCP Configuration - provides 6 skills: ltip-metrics, incentive-tearsheet, incentive-orientation-table, riskfactor-change-table, thirteenf-flow-map,  which provide rich views of various VerityData datasets and examples on what can be built with it",
   "author": {
     "name": "VerityData",
     "email": "mcp@verityplatform.com"
