@@ -1,0 +1,115 @@
+{
+  "title": "Q1'26 13F flow map \u2014 sample universe",
+  "subtitle": "Validation run. Bubble area scales with total 13F value held by institutions.",
+  "rows": [
+    {
+      "ticker": "AAPL",
+      "eq_now": 9319994802,
+      "eq_prev": 9481008549,
+      "new": 198,
+      "liq": 104,
+      "value_m": 2365321
+    },
+    {
+      "ticker": "MSFT",
+      "eq_now": 5312321854,
+      "eq_prev": 5468334765,
+      "new": 220,
+      "liq": 220,
+      "value_m": 1966462
+    },
+    {
+      "ticker": "GOOGL",
+      "eq_now": 8012817997,
+      "eq_prev": 7871038863,
+      "new": 230,
+      "liq": 180,
+      "value_m": 2313309
+    },
+    {
+      "ticker": "NVDA",
+      "eq_now": 16073014851,
+      "eq_prev": 16481629594,
+      "new": 258,
+      "liq": 167,
+      "value_m": 2803134
+    },
+    {
+      "ticker": "MU",
+      "eq_now": 841659037,
+      "eq_prev": 880452857,
+      "new": 500,
+      "liq": 149,
+      "value_m": 284346
+    },
+    {
+      "ticker": "AMAT",
+      "eq_now": 624473780,
+      "eq_prev": 640212871,
+      "new": 452,
+      "liq": 115,
+      "value_m": 213439
+    },
+    {
+      "ticker": "ADBE",
+      "eq_now": 361215711,
+      "eq_prev": 336468038,
+      "new": 195,
+      "liq": 475,
+      "value_m": 89885
+    },
+    {
+      "ticker": "MAR",
+      "eq_now": 187730492,
+      "eq_prev": 163842826,
+      "new": 190,
+      "liq": 97,
+      "value_m": 61362
+    },
+    {
+      "ticker": "PYPL",
+      "eq_now": 645667921,
+      "eq_prev": 709608691,
+      "new": 153,
+      "liq": 357,
+      "value_m": 29204
+    },
+    {
+      "ticker": "ASML",
+      "eq_now": 71433742,
+      "eq_prev": 68796407,
+      "new": 310,
+      "liq": 100,
+      "value_m": 94352
+    },
+    {
+      "ticker": "HON",
+      "eq_now": 492956117,
+      "eq_prev": 545427050,
+      "new": 289,
+      "liq": 137,
+      "value_m": 111423
+    },
+    {
+      "ticker": "CEG",
+      "eq_now": 279525267,
+      "eq_prev": 251329185,
+      "new": 184,
+      "liq": 254,
+      "value_m": 78057
+    }
+  ],
+  "offscale": [
+    {
+      "ticker": "TSLA",
+      "eq_now": 2278755602,
+      "eq_prev": 1623147376,
+      "new": 185,
+      "liq": 274,
+      "value_m": 899470
+    }
+  ],
+  "labels": "auto",
+  "logo": "dark",
+  "label_overrides": {}
+}
