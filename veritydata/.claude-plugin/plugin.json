@@ -1,6 +1,6 @@
 {
   "name": "veritydata",
-  "description": "VerityData - Skills & MCP Configuration. Six skills that turn VerityData (InsiderScore) data into analyst-grade tables, charts, and dashboards. Skills include:  Idea Discovery dashboard, 13F Flow map, Risk Factor Change table, Incentive tearhseet, Incentive Orientation table, and New Longterm Incentive Metrics",
+  "description": "VerityData - Skills & MCP Configuration. Six skills that turn VerityData (InsiderScore) data into analyst-grade tables, charts, and dashboards. Skills include: Idea Discovery dashboard, 13F Flow map, Risk Factor Change table, Incentive tearsheet, Incentive Orientation table, and New Longterm Incentive Metrics",
   "author": {
     "name": "VerityData",
     "email": "datafeeds@verityplatform.com"
@@ -8,6 +8,7 @@
   "version": "1.0.1",
   "homepage": "https://www.verityplatform.com",
   "icon": "./logo.png",
+  "documentationUrl": "https://feeds-techdocs.insiderscore.com/mcp/mcp.html",
   "supportUrl": "https://www.insiderscore.com/help.php",
   "privacyPolicyUrl": "https://www.insiderscore.com/tos.php#privacy",
   "termsOfServiceUrl": "https://www.insiderscore.com/tos.php",
