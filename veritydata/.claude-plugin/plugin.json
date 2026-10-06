@@ -7,6 +7,10 @@
   },
   "version": "1.0.1",
   "homepage": "https://www.verityplatform.com",
+  "icon": "./logo.png",
+  "supportUrl": "https://www.insiderscore.com/help.php",
+  "privacyPolicyUrl": "https://www.insiderscore.com/tos.php#privacy",
+  "termsOfServiceUrl": "https://www.insiderscore.com/tos.php",
 
   "mcpServers": {
     "veritydata": {
