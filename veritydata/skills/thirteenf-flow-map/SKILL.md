@@ -113,7 +113,7 @@ The script prints quadrant counts to stdout. It writes an SVG; pass `--png` to a
 ## Design / brand notes
 
 - The chart renders on a **light background** with VerityData quadrant colors (green/blue/red/amber) and the **VerityData logo** embedded bottom-right.
-- **The renderer is fully self-contained and portable.** Both VerityData logos are embedded directly in `scripts/verity_logos.py` as base64, so `build_flow_map.py` needs no asset files and no PIL/Pillow at runtime — only the Python standard library (plus optional `cairosvg` if you want a PNG). The `assets/` directory holds the original trimmed PNGs for reference, but the script does not depend on them; if `verity_logos.py` is ever missing, the script falls back to reading `assets/`.
+- **The renderer is fully self-contained and portable.** Both VerityData logos are embedded directly in `scripts/verity_logos.py` as base64, so `build_flow_map.py` reads no image files at runtime and needs no PIL/Pillow — only the Python standard library (plus optional `cairosvg` if you want a PNG). The assets directory keeps the original trimmed logo artwork as the source for that embedded base64; nothing in the skill reads it at runtime.
 - To use the skill, only two files are strictly required: `scripts/build_flow_map.py` and `scripts/verity_logos.py`. Keep them together.
 - `logo` defaults to `"dark"` (the navy-text mark, for the light chart background). `"white"` is available for restyling onto a dark background.
 - Fonts use a system sans stack so the SVG renders identically with or without cairosvg.

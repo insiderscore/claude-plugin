@@ -37,19 +37,13 @@ INPUT JSON SCHEMA
 
 Only "rows" is required. Everything else has sensible defaults.
 """
-import argparse, base64, json, math, os, sys
+import argparse, json, math, os, sys
 
-# Embedded VerityData logos make this script fully self-contained.
-# Falls back to assets/ on disk if the embedded module isn't importable.
-try:
-    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-    from verity_logos import (LOGO_DARK_B64, LOGO_WHITE_B64,
-                              LOGO_DARK_SIZE, LOGO_WHITE_SIZE)
-    _HAVE_EMBEDDED = True
-except Exception:
-    _HAVE_EMBEDDED = False
-
-ASSET_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets")
+# Embedded VerityData logos make this script fully self-contained: it reads no
+# image files at runtime. verity_logos.py must sit beside this script.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from verity_logos import (LOGO_DARK_B64, LOGO_WHITE_B64,
+                          LOGO_DARK_SIZE, LOGO_WHITE_SIZE)
 
 COLORS = {
     "Q1": {"fill": "#97C459", "stroke": "#3B6D11", "ink": "#173404"},  # conviction buy  (green)
@@ -183,22 +177,11 @@ def place_labels(pts, labelset, px, py, plot):
 
 
 def logo_data_uri(which):
-    """Return (data_uri, (width_px, height_px)) for the requested logo.
-    Prefers the embedded base64 (portable); falls back to assets/ on disk."""
+    """Return (data_uri, (width_px, height_px)) for the requested logo,
+    from the base64 embedded in verity_logos.py."""
     want_white = (which == "white")
-    if _HAVE_EMBEDDED:
-        b64 = LOGO_WHITE_B64 if want_white else LOGO_DARK_B64
-        size = LOGO_WHITE_SIZE if want_white else LOGO_DARK_SIZE
-        return f"data:image/png;base64,{b64}", size
-    # Fallback: read from disk
-    path = os.path.join(ASSET_DIR, f"verity_logo_{'white' if want_white else 'dark'}.png")
-    with open(path, "rb") as f:
-        b64 = base64.b64encode(f.read()).decode()
-    try:
-        from PIL import Image
-        size = Image.open(path).size
-    except Exception:
-        size = (600, 145)  # known default aspect for these assets
+    b64 = LOGO_WHITE_B64 if want_white else LOGO_DARK_B64
+    size = LOGO_WHITE_SIZE if want_white else LOGO_DARK_SIZE
     return f"data:image/png;base64,{b64}", size
 
 
