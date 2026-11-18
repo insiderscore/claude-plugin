@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 to_pdf.py — render a tear-sheet HTML file to a SINGLE-PAGE (un-paginated) PDF.
 

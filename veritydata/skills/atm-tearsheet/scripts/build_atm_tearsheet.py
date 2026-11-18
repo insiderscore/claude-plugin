@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Render a single-ticker ATM issuance tear sheet from raw Verity client-tool CSVs.
 
 One self-contained HTML file in the Verity house style. The headline is the

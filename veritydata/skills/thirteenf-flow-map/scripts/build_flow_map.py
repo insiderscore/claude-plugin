@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Build a Q-over-Q 13F "flow map" quadrant scatterplot from Verity company_fund_stats data.
 

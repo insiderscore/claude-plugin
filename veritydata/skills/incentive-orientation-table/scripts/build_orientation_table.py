@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Render a sortable incentive-orientation table from a spec JSON.
 
 One self-contained HTML file: a graphic table where each company is a row

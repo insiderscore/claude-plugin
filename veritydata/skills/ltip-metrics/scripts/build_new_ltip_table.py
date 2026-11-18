@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Render a sortable "new LTIP metrics" screen from a spec JSON.
 
 One self-contained HTML file in the VerityData orientation-table visual

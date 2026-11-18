@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Render a sortable risk-factor change table from a spec JSON.
 
 Same house style as the incentive-orientation table, but each company's bar

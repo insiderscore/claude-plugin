@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """to_pdf.py — export the risk-factor table HTML to a single-page PDF.
 
 Uses headless Chromium (Playwright) so the inline logo, bar segments, and

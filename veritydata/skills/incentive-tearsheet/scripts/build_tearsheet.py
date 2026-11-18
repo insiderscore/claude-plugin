@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 build_tearsheet.py — render an incentive-design tear sheet from a prepared spec.
 

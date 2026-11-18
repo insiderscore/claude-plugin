@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """First-pass cycle differ for the new-LTIP-metrics screen.
 
 Reads one or more Verity get_longterm_incentive_plans JSON payloads, orders each
