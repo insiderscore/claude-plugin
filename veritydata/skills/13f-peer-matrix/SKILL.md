@@ -204,7 +204,7 @@ aggregates cover the whole SF, not just the displayed columns.
 
 Read the template:
 ```
-view dashboard_template.jsx
+view dashboard_template.txt
 ```
 
 The template contains **no** hardcoded SuperFund name, SFID, date, or quarter — every
